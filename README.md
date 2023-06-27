@@ -1,4 +1,4 @@
-# Library-App
+# Library-App [view live][https://emmily808.github.io/Library-App/]
 
 The Library App is a web application that allows you to manage and keep track of a book collection. You can add books, specify the author, and mark them as read or unread. 
 
