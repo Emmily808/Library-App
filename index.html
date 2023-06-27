@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Book Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header-section">
+      <div class="title">
+        <h1 class="project-title">My book library</h1>
+        <p class="project-description">
+          This is a project for <a href="https://www.theodinproject.com/">The Odin Project</a> in wich I have
+          to make a library using Object Constructors. <br>
+          You can also view the <a href="">Github repository</a> of this project.
+        </p>
+      </div>
+      <div class="book-form">
+        <form id="myForm" action="" method="">
+            <div class="options-container">
+                <div class="book-container">
+                  <label for="book-name">Book</label>
+                  <input type="text" id="book-name" name="book-name" required />
+                </div>
+      
+                <div class="author-container">
+                  <label for="book-author">Author</label>
+                  <input type="text" id="book-author" name="book-author" required />
+                </div>
+      
+                <div class="status-container">
+                  <label for="read-status">Status</label>
+                  <select name="read-status" id="read-status">
+                    <option value="Readed">Read</option>
+                    <option value="Not readed">Not Read</option>
+                  </select>
+                </div>
+            </div>
+
+          <div class="submit-container">
+            <input class="submit-button" type="submit" value="SUBMIT">
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div id="display">
+      <table class="content-table">
+        <thead>
+          <th>Book</th>
+          <th>Author</th>
+          <th>Status</th>
+          <th></th>
+          <th></th>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+      </table>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
